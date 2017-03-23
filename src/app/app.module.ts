@@ -14,24 +14,24 @@ import { DashboardComponent } from './dashboard.component';
   	BrowserModule, 
   	FormsModule,
   	RouterModule.forRoot([
-		{
-			path: 'heroes',
-			component: HeroesComponent
-		},
-		{
-			path: 'dashboard',
-			component: DashboardComponent
-		},
-		{
-			path: '',
-			redirectTo: '/dashboard',
-			pathMatch: 'full'
-		},
-    {
-      path: 'detail/:id',
-      component: HeroDetailComponent
-    },
-	])
+  		{
+  			path: 'heroes',
+  			component: HeroesComponent
+  		},
+  		{
+  			path: 'dashboard',
+  			component: DashboardComponent
+  		},
+  		{
+  			path: '',
+  			redirectTo: '/dashboard',
+  			pathMatch: 'full'
+  		},
+      {
+        path: 'detail/:id',
+        component: HeroDetailComponent
+      },
+  	])
   ],
   declarations: [ 
   	AppComponent, 
